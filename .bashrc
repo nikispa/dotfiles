@@ -195,16 +195,11 @@ alias ll='ls -l'
 alias lla='ls -la'
 alias lal='ls -la'
 
+# alias so I can cd directly to c/d drive
+alias cdc='cd /mnt/c' # for wsl
+alias cdd='cd /mnt/d' # for wsl
 
 
-# trying to make a cd-alias so I can cd directly to c/d drive
-
-# alias cdc='cd /mnt/c' # for wsl
-# alias cdd='cd /mnt/d' # for wsl
-
-# alias cdtoc='(cd /mnt/c && ls -lah)'
-
-# alias cdtoc="cd /mnt/c"
 
 
 

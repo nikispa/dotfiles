@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Export Vim
+export EDITOR="vim"
+
 #------------------------------------------------------------------------------
 # Typos.
 #------------------------------------------------------------------------------

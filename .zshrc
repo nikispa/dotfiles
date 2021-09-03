@@ -142,6 +142,7 @@ alias nman=man
 alias nmann=man
 alias mam=man
 alias mb=mv
+alias tsl=tls
 
 #------------------------------------------------------------------------------
 # Useful aliases to save some typing.
@@ -153,6 +154,15 @@ alias ll='ls -l'
 alias la='ls -la'
 alias lla='ls -la'
 alias lal='ls -la'
+
+#------------------------------------------------------------------------------
+# Tmux aliases.
+#------------------------------------------------------------------------------
+alias tls='tmux ls'
+alias tn='tmux new-session'
+alias trn='tmux rename-session -t <<<session'
+alias attach='tmux attach-session -t <<<session'
+alias tkill='tmux kill-session -t <<<session'
 
 #------------------------------------------------------------------------------
 # Git aliases.

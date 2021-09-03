@@ -151,7 +151,7 @@ alias cd..='cd ..'
 alias ..='cd ..'
 alias vi='vim'
 alias ll='ls -l'
-alias la='ls -la'
+alias la='exa -al --color=always --group-directories-first'
 alias lla='ls -la'
 alias lal='ls -la'
 

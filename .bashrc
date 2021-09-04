@@ -202,3 +202,10 @@ alias cdd='cd /mnt/d' # for wsl
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 5ee2cbbd88a57930aefa3d044d09ced26b4d6257

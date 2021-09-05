@@ -27,9 +27,9 @@ set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 
 
-  " When editing a file, always jump to the last known cursor position.
-  " Don't do it for commit messages, when the position is invalid, or when
-  " inside an event handler (happens when dropping a file on gvim).
+" When editing a file, always jump to the last known cursor position.
+" Don't do it for commit messages, when the position is invalid, or when
+" inside an event handler (happens when dropping a file on gvim).
 augroup vimrcEx
   autocmd BufReadPost *
     \ if &ft != 'gitcommit' && line("'\"") > 0 && line("'\"") <= line("$") |
@@ -80,7 +80,6 @@ set complete+=kspell
 " Always use vertical diffs
 set diffopt+=vertical
 
-"simple statusline von github: https://gist.github.com/meskarune/57b613907ebd1df67eb7bdb83c6e6641#file-vimrc-L9
 " status bar colors
 au InsertEnter * hi statusline guifg=black guibg=#d7afff ctermfg=magenta ctermbg=black " swapped the last two - magenta and cyan
 au InsertLeave * hi statusline guifg=black guibg=#8fbfdc ctermfg=cyan ctermbg=black " swapped the last two - cyan and black

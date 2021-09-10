@@ -78,7 +78,7 @@ nnoremap <C-l> <C-w>l
 set complete+=kspell
 
 " Always use vertical diffs
-set diffopt+=vertical
+"set diffopt+=vertical
 
 " status bar colors
 au InsertEnter * hi statusline guifg=black guibg=#d7afff ctermfg=magenta ctermbg=black " swapped the last two - magenta and cyan

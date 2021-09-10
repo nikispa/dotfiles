@@ -184,3 +184,6 @@ alias newtag='git tag -a'
 #------------------------------------------------------------------------------
 neofetch
 figlet "i  use  arch,  btw"
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced

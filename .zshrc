@@ -155,6 +155,7 @@ alias la='ls -lah'
 alias clone='git clone'
 alias lla='ls -la'
 alias lal='ls -la'
+alias cdh='cd ~/ && cd '
 
 #------------------------------------------------------------------------------
 # Tmux aliases.

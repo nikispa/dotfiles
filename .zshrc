@@ -166,7 +166,7 @@ alias al='la'
 alias tls='tmux ls'
 alias tn='tmux new-session'
 alias trn='tmux rename-session -t <<<session'
-alias tattach='tmux attach-session -t '
+alias tattach='tmux attach'
 alias tkill='tmux kill-session -t <<<session'
 
 #------------------------------------------------------------------------------

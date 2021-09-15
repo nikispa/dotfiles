@@ -183,7 +183,7 @@ alias nman=man
 alias nmann=man
 alias mam=man
 alias mb=mv
-
+alias tsl=tls
 
 #------------------------------------------------------------------------------
 # Useful aliases to save some typing.

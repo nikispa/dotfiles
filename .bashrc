@@ -183,7 +183,7 @@ alias nman=man
 alias nmann=man
 alias mam=man
 alias mb=mv
-
+alias tsl=tls
 
 #------------------------------------------------------------------------------
 # Useful aliases to save some typing.
@@ -194,6 +194,37 @@ alias vi='vim'
 alias ll='ls -l'
 alias lla='ls -la'
 alias lal='ls -la'
+alias la='ls -lah'
+alias lla='ls -la'
+alias lal='ls -la'
+alias cdh='cd ~/ && cd '
+alias al='la'
+
+#------------------------------------------------------------------------------
+# Tmux aliases.
+#------------------------------------------------------------------------------
+alias tls='tmux ls'
+alias tn='tmux new-session'
+alias trn='tmux rename-session -t <<<session'
+alias tattach='tmux attach'
+alias tkill='tmux kill-session -t <<<session'
+
+#------------------------------------------------------------------------------
+# Git aliases.
+#------------------------------------------------------------------------------
+alias addup='git add -u'
+alias addall='git add .'
+alias restore='git restore'
+alias branch='git branch'
+alias checkout='git checkout'
+alias clone='git clone'
+alias commit='git commit -m'
+alias fetch='git fetch'
+alias pull='git pull origin'
+alias push='git push origin'
+alias stat='git status'
+alias tag='git tag'
+alias newtag='git tag -a'
 
 # alias so I can cd directly to c/d drive
 alias cdc='cd /mnt/c' # for wsl

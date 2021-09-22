@@ -154,14 +154,9 @@ alias cd..='cd ..'
 alias ..='cd ..'
 alias vi='vim'
 alias ll='ls -l'
-<<<<<<< HEAD
-alias la='exa -al --color=always --group-directories-first'
-#alias la='ls -lah'
 alias clone='git clone'
-=======
 #alias la='exa -al --color=always --group-directories-first'
 alias la='ls -lah'
->>>>>>> 661bf9d4603086cdf16e667e28cfe3e6c6d0eeb6
 alias lla='ls -la'
 alias lal='ls -la'
 alias cdh='cd ~/ && cd '

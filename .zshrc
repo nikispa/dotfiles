@@ -137,6 +137,7 @@ alias icfonfig=ifconfig
 alias ifocnfig=ifconfig
 alias vf=cd
 alias dc=cd
+alias ccd=cd
 alias vp=cp
 alias nmv=mv
 alias mann=man

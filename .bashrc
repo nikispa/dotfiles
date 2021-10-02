@@ -199,6 +199,7 @@ alias lla='ls -la'
 alias lal='ls -la'
 alias cdh='cd ~/ && cd '
 alias al='la'
+alias :q='exit'
 
 #------------------------------------------------------------------------------
 # Tmux aliases.

@@ -146,6 +146,7 @@ alias nmann=man
 alias mam=man
 alias mb=mv
 alias tsl=tls
+alias ivm=vim
 
 #------------------------------------------------------------------------------
 # Useful aliases to save some typing.

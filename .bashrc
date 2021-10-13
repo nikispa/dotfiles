@@ -2,10 +2,10 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# If not running interactively, don't do anything
+## If not running interactively, don't do anything
 case $- in
-    *i*) ;;
-      *) return;;
+     *i*) ;;
+       *) return;;
 esac
 
 # don't put duplicate lines or lines starting with space in the history.
@@ -184,6 +184,7 @@ alias nmann=man
 alias mam=man
 alias mb=mv
 alias tsl=tls
+alias ivm=vim
 
 #------------------------------------------------------------------------------
 # Useful aliases to save some typing.
@@ -199,6 +200,7 @@ alias lla='ls -la'
 alias lal='ls -la'
 alias cdh='cd ~/ && cd '
 alias al='la'
+alias :q='exit'
 
 #------------------------------------------------------------------------------
 # Tmux aliases.

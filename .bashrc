@@ -202,6 +202,12 @@ alias cdh='cd ~/ && cd '
 alias al='la'
 alias :q='exit'
 
+# make dir and enter it
+mkcd () {
+  mkdir "$1"
+  cd "$1"
+}
+
 #------------------------------------------------------------------------------
 # Tmux aliases.
 #------------------------------------------------------------------------------
@@ -231,4 +237,3 @@ alias newtag='git tag -a'
 # alias so I can cd directly to c/d drive
 alias cdc='cd /mnt/c' # for wsl
 alias cdd='cd /mnt/d' # for wsl
-

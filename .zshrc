@@ -163,6 +163,7 @@ alias lal='ls -la'
 alias cdh='cd ~/ && cd '
 alias al='la'
 alias :q='exit'
+alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 
 # make dir and enter it
 mkcd () {
@@ -198,8 +199,9 @@ alias newtag='git tag -a'
 #------------------------------------------------------------------------------
 # at first
 #------------------------------------------------------------------------------
-neofetch
-figlet "i  use  arch,  btw"
+#neofetch
+#figlet "i  use  arch,  btw"
+cal
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
